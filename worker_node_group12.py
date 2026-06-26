@@ -1,5 +1,3 @@
-worker node
-
 import Pyro5.api
 import random
 import time
