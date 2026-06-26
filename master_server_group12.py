@@ -1,4 +1,3 @@
-master server
 
 import Pyro5.api
 import json
