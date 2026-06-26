@@ -1,10 +1,9 @@
 import Pyro5.api
-import Pyro5.config
 import json
 import threading
 from datetime import datetime
 
-Pyro5.config.SERVERTYPE = "thread"
+Pyro5.api.config.SERVERTYPE = "thread"
 
 @Pyro5.api.expose
 class TaskQueue:
